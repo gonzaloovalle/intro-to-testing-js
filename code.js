@@ -16,3 +16,9 @@ function sayHello(input) {
     }
 }
 
+// isFive function
+function isFive(input) {
+    return input == 5;
+}
+
+
