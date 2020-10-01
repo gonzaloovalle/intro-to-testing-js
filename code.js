@@ -9,8 +9,6 @@ function sayHello(input) {
         return "Hello, " + input + "!";
     } else if (input === true){
         return "Hello, World!";
-    } else if (input === false){
-        return "Hello, World!";
     } else {
         return "Hello, World!";
     }
@@ -21,4 +19,7 @@ function isFive(input) {
     return input == 5;
 }
 
+// isEven function
+function isEven() {
 
+}

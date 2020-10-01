@@ -58,4 +58,12 @@ describe('isFive', function(){
     it('should return "true" when "5" is entered', function(){
         expect(isFive("5")).toBe(true);
     });
-})
+});
+
+
+//unit test for isEven function
+describe('isEven', function(){
+   it('should be a defined function', function(){
+       expect(typeof isEven).toBe('function');
+   });
+});
