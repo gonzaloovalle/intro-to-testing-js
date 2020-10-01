@@ -20,6 +20,6 @@ function isFive(input) {
 }
 
 // isEven function
-function isEven() {
-
+function isEven(input) {
+    return input % 2 === 0 && typeof input !== 'boolean';
 }
